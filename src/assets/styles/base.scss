@@ -1,0 +1,67 @@
+@use "normalize.css";
+@use "fonts";
+
+
+.app {
+  // Typography
+  --app-typography-font-family-primary: roboto;
+
+  // Indents
+  --app-indents-main-layout-padding-vertical: 1.25rem;
+  --app-indents-main-layout-padding-horizontal: 1.25rem;
+
+  // Navigation
+  --app-navigation-collapse-width: 4rem;
+  --app-navigation-full-width: 15.4rem;
+  --app-page-header-width: 5rem;
+}
+
+html {
+  min-height: 360px;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--app-typography-font-family-primary), sans-serif;
+}
+
+:focus-visible,
+:focus,
+:hover {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--app-color-primary-background);
+}
+
+.main-box {
+  background-color: var(--app-color-primary-background);
+
+  &__row {
+    margin: 1.25rem 0;
+  }
+}
+
+.free-space {
+  width: 8px;
+  height: 8px;
+}
+
+.v-window {
+  overflow: unset;
+}

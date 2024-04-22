@@ -1,0 +1,6 @@
+/auto-imports.d.ts
+/components.d.ts
+vite.config.ts
+env.d.ts
+vitest.config.ts
+cypress.config.ts

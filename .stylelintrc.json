@@ -1,0 +1,20 @@
+{
+  "rules": {
+    "selector-class-pattern": null,
+    "scss/double-slash-comment-whitespace-inside": null,
+    "comment-whitespace-inside": null,
+    "comment-empty-line-before": null,
+    "alpha-value-notation": "number",
+    "color-function-notation": "legacy",
+    "declaration-block-no-redundant-longhand-properties": [true, {
+      "ignoreShorthands": [
+        "padding",
+        "/border/"
+      ]
+    }]
+  },
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-standard-vue/scss"
+  ]
+}
