@@ -7,7 +7,7 @@
     "build": "run-p type-check build-only",
     "preview": "vite preview",
     "test:unit": "vitest",
-    "build-only": "vite build --dotenv .env.production",
+    "build-only": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint": "eslint --ext .js,.vue,.ts --ignore-path .gitignore --fix src",
     "stylelint": "npx stylelint \"**/*.{scss,vue}\"",
