@@ -1,0 +1,1 @@
+import{a as e}from"./orderBookStore-57997e3b.js";import{a$ as r,ap as t,b0 as n,b2 as a}from"./index-ae0e8c3b.js";const _=r({__name:"index",setup(s){const o=e();return t(()=>{o.getOrderBook()}),(c,p)=>(a(),n("h1",null,"Order Book"))}});export{_ as default};
