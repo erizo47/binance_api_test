@@ -10,7 +10,6 @@ export default defineConfig({
   server: {
     port: 54818,
   },
-  publicPath: '/REPO_NAME/',
   preview: {
     port: 54818,
   },
