@@ -15,7 +15,6 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@binance/connector-typescript": "^0.3.7",
     "@mdi/font": "7.0.96",
     "axios": "^1.5.0",
     "buffer": "^6.0.3",
