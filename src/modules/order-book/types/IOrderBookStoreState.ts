@@ -1,6 +1,7 @@
 export interface IOrderBookStoreState {
   lastUpdateId: number,
-  bids: string[][],
-  asks: string[][],
+  bids: Record<string, string>,
+  asks: Record<string, string>,
+  limitList: number[],
   limit: number,
 }

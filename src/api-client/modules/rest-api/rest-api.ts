@@ -1,8 +1,7 @@
-import { Spot } from '@binance/connector-typescript';
+import axios from 'axios';
+import axiosInstanceBuilder from '@/api-client/axios';
 
 console.log(import.meta.env);
 
-// const baseURL = import.meta.env.API_BASE_URL as string ?? '';
-const apiKey = import.meta.env.API_KEY as string ?? '';
-const secretKey = import.meta.env.SECRET_KEY as string ?? '';
-export const $client = new Spot(apiKey, secretKey, { baseURL: 'https://data-api.binance.vision' });
+const baseURL = import.meta.env.VITE_APP_API_BASE_URL as string ?? '';
+export const $restRequest = axiosInstanceBuilder(axios, baseURL);

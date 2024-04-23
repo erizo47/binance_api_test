@@ -4,7 +4,6 @@ import type { ISnackbarConfig } from '@/modules/feedback/types/ISnackbarConfig';
 
 export const useFeedbackStore = defineStore('feedbackStore', {
   state: (): IFeedbackStoreState => ({
-    isLoading: false,
     globalSnackbar: {
       value: false,
       text: '',
@@ -14,9 +13,6 @@ export const useFeedbackStore = defineStore('feedbackStore', {
   }),
   getters: {},
   actions: {
-    toggleLoading() {
-      this.isLoading = !this.isLoading;
-    },
     showSnackbar(
       {
         text,

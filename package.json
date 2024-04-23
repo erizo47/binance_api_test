@@ -19,6 +19,7 @@
     "@mdi/font": "7.0.96",
     "axios": "^1.5.0",
     "buffer": "^6.0.3",
+    "firebase-tools": "^13.7.3",
     "pinia": "^2.1.6",
     "vue": "^3.3.4",
     "vue-router": "^4.2.2",
